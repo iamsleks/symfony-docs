@@ -1,13 +1,17 @@
 The Big Picture
 ===============
 
+10 分钟内学会使用 Symfony！本文将带你大略了解 Symfony 背后的大多数重要的概念，并通过展示一个实战的简单项目来说明如何快速开始。
 Start using Symfony in 10 minutes! This chapter will walk you through the most
 important concepts behind Symfony and explain how you can get started quickly
 by showing you a simple project in action.
 
+如果你以前曾经用过 web 框架，那么使用 Symfony 你就会有回家的感觉。如果没用过，那么欢迎使用一种全新的 web 应用开发方式。
 If you've used a web framework before, you should feel right at home with
 Symfony. If not, welcome to a whole new way of developing web applications.
 
+跟随本教程的唯一技术要求是在你的电脑上安装 PHP 5.4 或更高版本。如果你使用集成 PHP 解决方案，诸如 WAMP、XAMP 或 MAMP，
+那么检查一下确保使用的是 PHP 5.4 或更新的版本。可以在终端或命令行执行下面的命令来显示已安装的 PHP 版本：
 The only technical requisite to follow this tutorial is to have **PHP 5.4 or higher
 installed on your computer**. If you use a packaged PHP solution such as WAMP,
 XAMP or MAMP, check out that they are using PHP 5.4 or a more recent version.
