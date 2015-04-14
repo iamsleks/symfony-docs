@@ -1,3 +1,4 @@
+整体情况
 The Big Picture
 ===============
 
@@ -20,6 +21,7 @@ to display the installed PHP version:
 
 .. _installing-symfony2:
 
+安装 Symfony
 Installing Symfony
 ------------------
 
@@ -56,6 +58,7 @@ projects and then, execute the Symfony installer right away with this command:
 
     c:\> php symfony.phar
 
+创建第一个 Symfony 项目
 Creating Your First Symfony Project
 -----------------------------------
 
@@ -76,6 +79,7 @@ application right away.
 
 .. _running-symfony2:
 
+运行 Symfony
 Running Symfony
 ---------------
 
@@ -117,6 +121,7 @@ server with the ``server:stop`` command:
     If you prefer a traditional web server such as Apache or Nginx, read the
     :doc:`/cookbook/configuration/web_server_configuration` article.
 
+理解基本原理
 Understanding the Fundamentals
 ------------------------------
 
@@ -139,6 +144,7 @@ file and rendered the ``app/Resources/views/default/index.html.twig`` template.
 In the following sections you'll learn in detail the inner workings of Symfony
 controllers, routes and templates.
 
+动作和控制器
 Actions and Controllers
 ~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -179,6 +185,7 @@ In this example, the ``index`` action is practically empty because it doesn't
 need to call any other method. The action just renders a template with the
 *Welcome to Symfony!* content.
 
+路由
 Routing
 ~~~~~~~
 
@@ -230,6 +237,7 @@ of the ``Default`` controller when the user browses the ``/`` path of the applic
     This flexibility is one of the main features of Symfony, a framework that
     never imposes a particular configuration format on you.
 
+模板
 Templates
 ~~~~~~~~~
 
@@ -263,6 +271,7 @@ will introduce how templates work in Symfony.
 
 .. _quick-tour-big-picture-environments:
 
+使用环境工具
 Working with Environments
 -------------------------
 
